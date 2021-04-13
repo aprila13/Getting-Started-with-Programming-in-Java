@@ -11,3 +11,6 @@ public class Main {
 
     }
 }
+
+//Package names are for organization.
+//naming convention is reverse domain notation

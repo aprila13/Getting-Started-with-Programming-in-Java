@@ -2,12 +2,12 @@ package com.April;
 
 public class Main {
 
-    //the main method is the entry point for the application
+    //the main method is the entry point for the application. You can call other methods from here
     public static void main(String[] args) {
 
-        System.out.println("First line from app");
-        System.out.println("Second line from app");
-        System.out.println("Third line from app");
+//        System.out.println("First line from app");
+//        System.out.println("Second line from app");
+//        System.out.println("Third line from app");
 
         //Variables
 //        int sum = 34;
@@ -50,9 +50,27 @@ public class Main {
 //        System.out.println(someOtherInt); //6
 
         //Compound Assignment Operators
-        int myVal = 50;
-        myVal -= 5;
-        System.out.println(myVal);
+//        int myVal = 50;
+//        myVal -= 5;
+//        System.out.println(myVal);
+
+        //Operator Precedence (highest to lowest precedence)
+        //1. Postfix  X++ X--
+        //2. Prefix ++X --X
+        //3. Multiplicative  * / %
+        //4. Additive  + -
+        // Operators of equal precedence are evaluated left to right
+        // Precedence can be overriden with parenthesis
+        // Nested parenthesis evaluated from inside out
+
+        int valA = 21;
+        int valB = 6;
+        int valC = 3;
+
+        int result1 = valA - valB / valC; //19, Division then subtraction
+        int result2 = (valA - valB) / valC; //5, Parenthesis then division
+        System.out.println(result1);
+        System.out.println(result2);
     }
 }
 

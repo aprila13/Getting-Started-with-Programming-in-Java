@@ -9,6 +9,7 @@ public class Main {
 //        System.out.println("Second line from app");
 //        System.out.println("Third line from app");
 
+        //==========Variables, Data Types and Math Operators==========
         //Variables
 //        int sum = 34;
 //        System.out.println(sum);
@@ -63,14 +64,52 @@ public class Main {
         // Precedence can be overriden with parenthesis
         // Nested parenthesis evaluated from inside out
 
-        int valA = 21;
-        int valB = 6;
-        int valC = 3;
+//        int valA = 21;
+//        int valB = 6;
+//        int valC = 3;
+//
+//        int result1 = valA - valB / valC; //19, Division then subtraction
+//        int result2 = (valA - valB) / valC; //5, Parenthesis then division
+//        System.out.println(result1);
+//        System.out.println(result2);
 
-        int result1 = valA - valB / valC; //19, Division then subtraction
-        int result2 = (valA - valB) / valC; //5, Parenthesis then division
-        System.out.println(result1);
-        System.out.println(result2);
+        //Type Conversion
+        //Implicit Conversion - Conversion automatically done by the compiler
+        //Implicit conversion can be done with widening conversion, from small to bigger
+//        int intValueOne = 50;
+//        long longValueOne = intValueOne; //Implicit Conversion
+//        System.out.println(longValueOne);
+//
+//        //Explicit Conversion - Conversion done with a cast operator
+//        //Explicit Conversions can do widening and narrowing
+//        long longValueTwo = 50;
+//        int intValueTwo = (int) longValueTwo; //(int) is a cast operator
+//        System.out.println(intValueTwo);
+
+
+        //==========Conditional Logic and Block Statements==========
+        //Relational Operators -- == Equal to, != Not Equal to
+
+        //Conditional Assignment
+        //result = condition ? true value : false value;
+
+//        int val1 = 7;
+//        int val2 = 5;
+//        int maxVal = val1 > val2 ? val1 : val2;
+//        System.out.println(maxVal);
+
+        //Chaining if-else
+//        int value1 = 40;
+//        int value2 = 10;
+//
+//        if(value1 > value2) {
+//            System.out.println("value 1 is bigger");
+//        } else if (value1 < value2) {
+//            System.out.println("value 2 is bigger");
+//        } else {
+//            System.out.println("value 1 and value 2 are equal");
+//        }
+
     }
 }
 

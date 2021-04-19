@@ -110,6 +110,22 @@ public class Main {
 //            System.out.println("value 1 and value 2 are equal");
 //        }
 
+
+        //Logical Operators
+//        int students = 150;
+//        int rooms = 4;
+//        int rooms = 0;
+////        if(students / rooms > 30) {
+////            System.out.println("It's crowded");
+////        }
+//
+//        if(rooms != 0 && students / rooms > 30) {
+//            System.out.println("It's crowded");
+//        }
+
+        //Switch Statements - Test a single value against multiple conditions
+        //Java Switch statements only allow byte, short, int, long, char (primitives)
+
     }
 }
 

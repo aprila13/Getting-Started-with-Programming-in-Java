@@ -126,6 +126,60 @@ public class Main {
         //Switch Statements - Test a single value against multiple conditions
         //Java Switch statements only allow byte, short, int, long, char (primitives)
 
+
+        //==========LOOPING AND ARRAYS==========
+        //While Loop - Condition checked at start of the loop -- if condition is false when starting, body isn't run
+        //while (condition) {body; iterator}
+
+        //Calculating the factorial of 4
+//        int someValue = 4;
+//        int factorial = 1;
+//
+//        while (someValue > 1) {
+//            factorial *= someValue;
+//            someValue--;
+//        }
+//        System.out.println(factorial);
+
+        //Do-While Loop - Condition is checked at end of the loop -- Always runs at least once
+        //do {body} while (condition)
+
+//        int iVal = 5;
+//        do {
+//            System.out.print(iVal);
+//            System.out.print(" * 2 = ");
+//            iVal *= 2;
+//            System.out.print(iVal);
+//        } while (iVal < 25);
+
+        //For Loop - Condition checked at the start of the loop
+        //for (initialize; condition; iterator) {body}
+//        for (int i = 1; i < 100; i *= 2){
+//            System.out.println(i);
+//        }
+
+        //Arrays - ordered collection of elements
+//        float[] theVals = new float[3]; //DataType[] variableName = new DataType[numOfElements];
+//        //float[] theVals = {10.0f, 20.0f, 15.0f}; -same as above
+//        theVals[0] = 10.0f;
+//        theVals[1] = 20.0f;
+//        theVals[2] = 15.0f;
+//
+//        float sum = 0.0f;
+//        for (int index = 0; index < theVals.length; index++){
+//            sum += theVals[index];
+//            System.out.println(sum);
+//        }
+
+        //ForEach Loop - runs a statement once for each element
+//        for (DataType loopVariable : Array) {body}
+
+        float[] theVals = {10.0f, 20.0f, 15.0f}; // -same as above
+        float sum = 0.0f;
+        for (float currentVal : theVals) {
+            sum += currentVal;
+            System.out.println(sum);
+        }
     }
 }
 
